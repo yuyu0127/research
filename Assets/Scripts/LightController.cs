@@ -14,8 +14,8 @@ public class LightController : MonoBehaviour
     float timerRot = 0f;
     float intervalRot = 0f;
 
-    Vector3 anchor1;
-    Vector3 anchor2;
+    [SerializeField] Vector3 anchor1;
+    [SerializeField] Vector3 anchor2;
 
     void Start()
     {
